@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 
 from pathlib import Path
 import os
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,18 +26,16 @@ SECRET_KEY = 'django-insecure-_hlcrve0=8o%9g8_530m*%vgtmn-&t%-q&0g1j9^nepjq(ni(1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+
 ALLOWED_HOSTS = [
-    "employee-management-system-h64z.onrender.com",
+    "employee-management-system-ajzn.onrender.com",
     "localhost",
     "127.0.0.1",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://employee-management-system-h64z.onrender.com",
+    "https://employee-management-system-ajzn.onrender.com",
 ]
-
-# Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
