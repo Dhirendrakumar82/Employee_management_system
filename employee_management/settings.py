@@ -31,6 +31,9 @@ ALLOWED_HOSTS = [
     "127.0.0.1",
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://employee-management-system-vrna.onrender.com",
+]
 
 # Application definition
 
@@ -86,6 +89,7 @@ WSGI_APPLICATION = 'employee_management.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
 
 
 DATABASES = {
