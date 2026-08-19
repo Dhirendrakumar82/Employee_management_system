@@ -26,13 +26,13 @@ SECRET_KEY = 'django-insecure-_hlcrve0=8o%9g8_530m*%vgtmn-&t%-q&0g1j9^nepjq(ni(1
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "employee-management-system-vrna.onrender.com",
+    "employee-management-system-h64z.onrender.com",
     "localhost",
     "127.0.0.1",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://employee-management-system-vrna.onrender.com",
+    "https://employee-management-system-h64z.onrender.com",
 ]
 
 # Application definition
